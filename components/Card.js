@@ -9,7 +9,7 @@ const Card = (props) => {
     );
 }
 
-styles = StyleSheet.create({
+const styles = StyleSheet.create({
     card: {
         padding: 20,
         borderRadius: 10,
