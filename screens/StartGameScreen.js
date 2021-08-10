@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { View, StyleSheet, Text, TextInput, Button, TouchableWithoutFeedback, Keyboard, Alert } from 'react-native';
+import BodyText from '../components/BodyText';
 import Card from '../components/Card';
 import DefaultButton from '../components/DefaultButton';
 import DefaultInput from '../components/DefaultInput';
 import NumberContainer from '../components/NumberContainer';
+import TitleText from '../components/TitleText';
 import Colors from '../themes/colors'
 
 const StartGameScreen = props => {
@@ -53,9 +55,9 @@ const StartGameScreen = props => {
             Keyboard.dismiss();
         }}>
             <View style={styles.screen}>
-                <Text style={styles.title}>Start a New Game!</Text>
+                <TitleText style={styles.title}>Start a New Game!</TitleText>
                 <Card style={styles.inputContainer}>
-                    <Text>Select a Number</Text>
+                    <BodyText>Select a Number</BodyText>
                     <DefaultInput 
                         style={styles.input} 
                         blurOnSubmit 
