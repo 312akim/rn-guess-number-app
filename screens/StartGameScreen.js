@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, StyleSheet, Text, TextInput, Button, TouchableWithoutFeedback, Keyboard, Alert } from 'react-native';
+import { View, StyleSheet, Text, TouchableWithoutFeedback, Keyboard, Alert } from 'react-native';
 import BodyText from '../components/BodyText';
 import Card from '../components/Card';
 import DefaultButton from '../components/DefaultButton';
